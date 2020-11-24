@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Polygon, Popup, useMapEvent } from "react-leaflet";
-import NumberMarker from "./NumberMarker";
+import NumberMarker from "../NumberMarker";
 
 const MyPolygon = () => {
   const purpleOptions = { color: "purple" };

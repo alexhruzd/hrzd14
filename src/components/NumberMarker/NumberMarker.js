@@ -2,6 +2,8 @@ import React from "react";
 import L from "leaflet";
 import { Marker } from "react-leaflet";
 
+import "./NumberMarker.css";
+
 const NumberMarker = (props) => {
   const { position, number } = props;
 
