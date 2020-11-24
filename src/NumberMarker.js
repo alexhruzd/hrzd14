@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 import L from "leaflet";
-import { Marker } from 'react-leaflet';
+import { Marker } from "react-leaflet";
 
 const NumberMarker = (props) => {
-
-  const {position, number} = props;
+  const { position, number } = props;
 
   const numIcon = L.divIcon({
     className: "number-icon",
@@ -13,9 +12,7 @@ const NumberMarker = (props) => {
     html: `${number}`,
   });
 
-  return (
-    <Marker position={position} icon={numIcon}></Marker>
-  );
-}
+  return <Marker position={position} icon={numIcon}></Marker>;
+};
 
 export default NumberMarker;
